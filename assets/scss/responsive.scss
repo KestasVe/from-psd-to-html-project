@@ -1,0 +1,628 @@
+@media (min-width: 992px) {
+	.navbar {
+		padding: 0;
+
+		.container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		.main-nav {
+			height: auto;
+			display: flex;
+			align-items: center;
+		}
+	
+		.navbar-toggle {
+			display: none;
+		}
+	
+		li {
+			margin: 0;
+			padding-right: 12px;
+		}
+	
+		li a {
+			font-weight: 600;
+			font-size: 0.75rem;
+			line-height: 1;
+			text-transform: uppercase;
+		}
+	}
+
+	.black-nav {
+		background-color: transparent;
+	}
+}
+
+@media (max-width: 991px) {
+	.intro {
+
+		.container {
+			max-width: 1199px;
+			padding-bottom: 37px;
+			margin: 0 auto;
+		}
+
+		h2 {
+			margin-top: 0;
+		}
+
+		.intro-promo {
+			width: 100%;
+		}
+
+		.intro-image {
+			display: none;
+		}
+	}
+
+	.speciality {
+
+		.container {
+			display: block;
+			max-width: 1199px;
+			padding: 0;
+			margin: 0 auto;
+		}
+
+		.speciality-promo {
+			width: 100%;
+			padding: 40px 15px 0;
+		}
+
+		.speciality-services {
+			width: 100%;
+
+		}
+
+		.services{
+			border-top: 1px solid #292929;
+		}
+
+		h2 {
+			margin: 0;
+		}
+	}
+
+	.timeline {
+
+		.timeline-promo-text {
+			width: 60%;
+		}
+	
+		.timeline-promo-link {
+			width: 40%;
+			text-align: center;
+		}
+	}
+
+	.achievements {
+
+		.achievements-image {
+			display: none;
+		}
+
+		.achievements-promo {
+			width: 100%;
+			padding: 30px 0;
+		}
+
+		.achievements-promo-numbers {
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+
+	.work {
+
+		.work-container-photo {
+			min-height: 270px;
+		}
+	}
+
+	.parallax {
+
+		.parallax-img {
+			display: none;
+		}
+
+		.parallax-promo {
+			width: 100%;
+		}
+	}
+
+	footer {
+
+		.flex-container {
+			display: block;
+		}
+
+		.footer-promo {
+			width: 100%;
+		}
+
+		ul {
+			justify-content: flex-start;
+			flex-wrap: wrap;
+			margin: 0;
+		}
+
+		li {
+			display: block;
+			margin-right: 15px;
+		}
+
+		.footer-contacts {
+			width: 100%;
+		}
+
+		.icons {
+			display: flex;
+			justify-content: flex-start;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.speciality {
+
+		.flex-services {
+			width: 50%;
+		}
+	}
+
+	.team {
+
+		.team-promo {
+			padding-top: 30px;
+		}
+
+		.team-members {
+			padding: 30px 0;
+		}
+
+		.member {
+			width: 50%;
+			text-align: center;
+		}
+	}
+
+	.timeline {
+
+		.timeline-promo {
+			display: block;
+			padding-top: 30px;
+		}
+
+		.timeline-promo-text {
+			width: 100%;
+		}
+	
+		.timeline-promo-link {
+			width: 100%;
+		}
+
+		.timeline-line {
+			padding-bottom: 80px;	
+		}
+	}
+
+	.description {
+
+		.container {
+			display: block;
+		}
+
+		.promo {
+			width: 100%;
+			padding: 30px 0 0;
+		}
+
+		.description-text {
+			width: 100%;
+			padding: 30px 0;
+		}
+	}
+
+	.faq {
+
+		.container {
+			display: block;
+			padding: 0 15px;
+		}
+
+		.faq-promo {
+			width: 100%;
+		}
+
+		img {
+			margin: 0 auto;
+		}
+
+		.faq-text {
+			width: 100%;
+			padding: 30px 0;
+		}
+	}
+
+	.features {
+
+		.container {
+			padding: 30px 15px;
+		}
+
+		.features-info {
+			width: calc(50% - 22px);
+			padding: 20px 0 18px;
+		}
+	
+	}
+
+	.work {
+
+		.container {
+			padding: 30px 15px;
+		}
+
+		.work-container-photo {
+			width: 50%;
+			min-height: 270px;
+		}
+	}
+
+	.clients {
+
+		.container {
+			padding: 30px 15px;
+		}
+
+		.clients-brands-photo {
+			width: calc(33.3333% - 1.5px);
+			margin-bottom: 2px;
+		}
+	}
+
+	.testimonial {
+
+		.container {
+			padding: 30px 15px;
+		}
+
+	}
+
+	.parallax {
+
+		.container {
+			padding: 30px 15px;
+		}
+
+		.parallax-promo {
+			padding: 0;
+		}
+	}
+
+	.pricing {
+
+		.para {
+			margin-bottom: 20px;
+		} 
+
+		.pricing-plans {
+			margin-top: 30px;
+		}
+
+		.pricing-plans-info {
+			width: calc(33.3333% - 2px);
+		}
+	}
+
+	.news {
+		padding-top: 30px;
+
+		.para {
+			margin-bottom: 30px;
+		}
+
+		.news-articles {
+			max-width: 1199px;
+			margin: 0 auto;
+			padding: 0 15px;
+		}
+
+		.article {
+			width: 100%;
+		}
+
+		.text {
+			padding-right: 10px;
+		}
+
+		img {
+			margin: 0 auto 2px;
+		}
+
+		ul {
+			margin: 0;
+		}
+	}
+
+	.contact {
+
+		.container {
+			padding: 30px 15px;
+			display: block;
+		}
+	
+		.contact-promo {
+			width: 100%;
+			padding-right: 0;
+		}
+
+		h3 {
+			margin: 0;
+		}
+
+		.contact-promo-details {
+			display: flex;
+			justify-content: flex-start;
+			margin: 15px 0 20px;
+		}
+
+		.details {
+			margin-right: 30px;
+		}
+
+		.contact-form {
+			width: 100%;
+		}
+	}
+
+	footer {
+
+		.container {
+			padding: 30px 15px;
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.timeline {
+		
+		.point-hide {
+			display: none;
+		}
+
+		.point {
+			width: 50%;
+		}
+
+		.timeline-line {
+			padding-bottom: 30px;	
+		}
+	}
+
+	.work, .parallax {
+		.btn {
+			display: block;
+			margin-bottom: 1px;
+		}
+	}
+
+	.clients {
+
+		.clients-brands-photo {
+			width: calc(50% - 1px);
+		}
+	}
+
+	.pricing {
+
+		.container {
+			padding: 30px 15px 0;
+		}
+
+		.pricing-plans {
+			flex-wrap: wrap;
+		}
+
+		.pricing-plans-info {
+			width: 100%;
+			margin-bottom: 30px;
+		}
+	}
+
+	.news {
+
+		.photo-overlay {
+			align-items: center;
+		}
+	}
+
+	.contact {
+
+		form {
+			display: block;
+		}
+
+		.form-group {
+			width: 100%;
+		}
+	}
+}
+
+
+
+// /* Responsive styles
+// ================================================== */
+
+// /* Medium Devices, Desktops */
+// @media (min-width : 992px) {
+	
+
+// }
+
+// /* Small Devices, Tablets */
+// @media (min-width : 768px) and (max-width: 991px) {
+
+//  .navbar-light .navbar-toggler{
+//         color: rgba(0,0,0,.5);
+//         border-color: rgba(0,0,0,.1);
+//         padding: 10px 10px;
+//          border-radius: 0px;
+//     }
+    
+//     .navbar-nav{
+//         background: #000;
+//     }
+    
+//     .navbar-light .navbar-nav{
+//         background: #fff;
+//     }
+    
+//    .navbar-light .navbar-toggler-icon-bar{
+//        background: #fff;
+//        height: auto;
+//     }
+    
+// /*================
+//      FEATURE
+//     =========================*/
+    
+//     .feature-block{
+//         margin-bottom: 40px;
+//     }
+    
+//     .about-img,.about-content-2,.footer-link{
+//         margin-bottom: 30px;
+//     }
+
+
+// }
+
+// /* Small Devices Potrait */
+// @media (max-width : 767px){
+
+//     .navbar-light .navbar-toggler{
+//         color: rgba(0,0,0,.5);
+//         border-color: rgba(0,0,0,.1);
+//         padding: 10px 10px;
+//          border-radius: 0px;
+//     }
+    
+//     .navbar-nav{
+//         background: #000;
+//     }
+    
+//     .navbar-light .navbar-nav{
+//         background: #fff;
+//     }
+    
+//    .navbar-light .navbar-toggler-icon-bar{
+//        background: #fff;
+//        height: auto;
+//     }
+    
+// /*================
+//      FEATURE
+//     =========================*/
+    
+//     .feature-block{
+//         margin-bottom: 40px;
+//     }
+    
+//     .about-img,.about-content-2,.footer-link{
+//         margin-bottom: 30px;
+//     }
+	
+// }
+
+// /* Extra Small Devices, Phones */ 
+// @media (min-width : 480px) and (max-width:767px){
+
+//     .navbar-light .navbar-toggler {
+//         color: rgba(0,0,0,.5);
+//         border-color: rgba(0,0,0,.1);
+//         padding: 10px 10px;
+//          border-radius: 0px;
+//     }
+    
+//     .navbar-nav{
+//         background: #000;
+//     }
+    
+//     .navbar-light .navbar-nav{
+//         background: #fff;
+//     }
+    
+//    .navbar-light .navbar-toggler-icon-bar{
+//        background: #fff;
+//        height: auto;
+//     }
+    
+// /*================
+//      FEATURE
+//     =========================*/
+    
+//     .feature-block{
+//         margin-bottom: 40px;
+//     }
+    
+//     .about-img,.about-content-2,.footer-link{
+//         margin-bottom: 30px;
+//     }
+
+    
+    
+//     .pricing-block{
+//         margin-bottom: 20px;
+//         margin-top: 30px;
+//     }
+
+// }
+
+// /* Custom, iPhone Retina */ 
+// @media (min-width : 320px) and (max-width: 478px)  {
+
+//     .navbar-light .navbar-toggler {
+//         color: rgba(0,0,0,.5);
+//         border-color: rgba(0,0,0,.1);
+//         padding: 10px 10px;
+//         border-radius: 0px;
+//     }
+    
+//     .navbar-nav{
+//         background: #000;
+//     }
+    
+//     .navbar-light .navbar-nav{
+//         background: #fff;
+//     }
+    
+//    .navbar-light .navbar-toggler-icon-bar{
+//         background: #fff;
+//        height: auto;
+//     }
+    
+// /*================
+//      FEATURE
+//     =========================*/
+    
+//     .feature-block{
+//         margin-bottom: 40px;
+//     }
+    
+//     .about-img,.about-content-2,.footer-link{
+//         margin-bottom: 30px;
+//     }
+
+    
+//     .pricing-block{
+//         margin-bottom: 30px;
+//         margin-top: 30px;
+//     }
+
+
+
+// }

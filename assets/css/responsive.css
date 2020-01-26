@@ -1,0 +1,327 @@
+@media (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .navbar .main-nav {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .navbar .navbar-toggle {
+    display: none;
+  }
+  .navbar li {
+    margin: 0;
+    padding-right: 12px;
+  }
+  .navbar li a {
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+  .black-nav {
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 991px) {
+  .intro .container {
+    max-width: 1199px;
+    padding-bottom: 37px;
+    margin: 0 auto;
+  }
+  .intro h2 {
+    margin-top: 0;
+  }
+  .intro .intro-promo {
+    width: 100%;
+  }
+  .intro .intro-image {
+    display: none;
+  }
+  .speciality .container {
+    display: block;
+    max-width: 1199px;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .speciality .speciality-promo {
+    width: 100%;
+    padding: 40px 15px 0;
+  }
+  .speciality .speciality-services {
+    width: 100%;
+  }
+  .speciality .services {
+    border-top: 1px solid #292929;
+  }
+  .speciality h2 {
+    margin: 0;
+  }
+  .timeline .timeline-promo-text {
+    width: 60%;
+  }
+  .timeline .timeline-promo-link {
+    width: 40%;
+    text-align: center;
+  }
+  .achievements .achievements-image {
+    display: none;
+  }
+  .achievements .achievements-promo {
+    width: 100%;
+    padding: 30px 0;
+  }
+  .achievements .achievements-promo-numbers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .work .work-container-photo {
+    min-height: 270px;
+  }
+  .parallax .parallax-img {
+    display: none;
+  }
+  .parallax .parallax-promo {
+    width: 100%;
+  }
+  footer .flex-container {
+    display: block;
+  }
+  footer .footer-promo {
+    width: 100%;
+  }
+  footer ul {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  footer li {
+    display: block;
+    margin-right: 15px;
+  }
+  footer .footer-contacts {
+    width: 100%;
+  }
+  footer .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 767px) {
+  .speciality .flex-services {
+    width: 50%;
+  }
+  .team .team-promo {
+    padding-top: 30px;
+  }
+  .team .team-members {
+    padding: 30px 0;
+  }
+  .team .member {
+    width: 50%;
+    text-align: center;
+  }
+  .timeline .timeline-promo {
+    display: block;
+    padding-top: 30px;
+  }
+  .timeline .timeline-promo-text {
+    width: 100%;
+  }
+  .timeline .timeline-promo-link {
+    width: 100%;
+  }
+  .timeline .timeline-line {
+    padding-bottom: 80px;
+  }
+  .description .container {
+    display: block;
+  }
+  .description .promo {
+    width: 100%;
+    padding: 30px 0 0;
+  }
+  .description .description-text {
+    width: 100%;
+    padding: 30px 0;
+  }
+  .faq .container {
+    display: block;
+    padding: 0 15px;
+  }
+  .faq .faq-promo {
+    width: 100%;
+  }
+  .faq img {
+    margin: 0 auto;
+  }
+  .faq .faq-text {
+    width: 100%;
+    padding: 30px 0;
+  }
+  .features .container {
+    padding: 30px 15px;
+  }
+  .features .features-info {
+    width: calc(50% - 22px);
+    padding: 20px 0 18px;
+  }
+  .work .container {
+    padding: 30px 15px;
+  }
+  .work .work-container-photo {
+    width: 50%;
+    min-height: 270px;
+  }
+  .clients .container {
+    padding: 30px 15px;
+  }
+  .clients .clients-brands-photo {
+    width: calc(33.3333% - 1.5px);
+    margin-bottom: 2px;
+  }
+  .testimonial .container {
+    padding: 30px 15px;
+  }
+  .parallax .container {
+    padding: 30px 15px;
+  }
+  .parallax .parallax-promo {
+    padding: 0;
+  }
+  .pricing .para {
+    margin-bottom: 20px;
+  }
+  .pricing .pricing-plans {
+    margin-top: 30px;
+  }
+  .pricing .pricing-plans-info {
+    width: calc(33.3333% - 2px);
+  }
+  .news {
+    padding-top: 30px;
+  }
+  .news .para {
+    margin-bottom: 30px;
+  }
+  .news .news-articles {
+    max-width: 1199px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .news .article {
+    width: 100%;
+  }
+  .news .text {
+    padding-right: 10px;
+  }
+  .news img {
+    margin: 0 auto 2px;
+  }
+  .news ul {
+    margin: 0;
+  }
+  .contact .container {
+    padding: 30px 15px;
+    display: block;
+  }
+  .contact .contact-promo {
+    width: 100%;
+    padding-right: 0;
+  }
+  .contact h3 {
+    margin: 0;
+  }
+  .contact .contact-promo-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 15px 0 20px;
+  }
+  .contact .details {
+    margin-right: 30px;
+  }
+  .contact .contact-form {
+    width: 100%;
+  }
+  footer .container {
+    padding: 30px 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .timeline .point-hide {
+    display: none;
+  }
+  .timeline .point {
+    width: 50%;
+  }
+  .timeline .timeline-line {
+    padding-bottom: 30px;
+  }
+  .work .btn, .parallax .btn {
+    display: block;
+    margin-bottom: 1px;
+  }
+  .clients .clients-brands-photo {
+    width: calc(50% - 1px);
+  }
+  .pricing .container {
+    padding: 30px 15px 0;
+  }
+  .pricing .pricing-plans {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .pricing .pricing-plans-info {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .news .photo-overlay {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .contact form {
+    display: block;
+  }
+  .contact .form-group {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
